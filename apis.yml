@@ -1,8 +1,30 @@
 aid: appearhere
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appearhere.png
 name: appearhere
-description: appearhere is a company surfaced as a portfolio company of balderton-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Appear Here is the leading online marketplace for short-term retail space,
+  connecting property owners with brands, designers, and entrepreneurs who want
+  to rent shops, pop-up stores, market stalls, showrooms, and event venues on a
+  flexible, short-term basis. Founded in London in 2014 and backed by Balderton
+  Capital, the two-sided marketplace lets tenants search available space by city
+  and date, book securely online with standardized legal agreements, and message
+  landlords directly, while landlords list and monetize idle retail units. Appear
+  Here operates across the UK, US, and France and has facilitated the opening of
+  more than 10,000 stores for over 250,000 brands and creative entrepreneurs.
+  Appear Here does not currently publish a public developer API, SDKs, or a
+  developer portal; this profile captures its public web, brand, and security
+  surface for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/appearhere/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,6 +37,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Retail
+- Real Estate
+- Marketplace
+- Pop-Up Shops
+- Commercial Property
+- Short-Term Rentals
+- Two-Sided Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.appearhere.co.uk/
+- type: HowItWorks
+  url: https://www.appearhere.co.uk/how-it-works
+- type: Blog
+  url: https://www.appearhere.co.uk/inspire
+- type: HelpCenter
+  url: https://appearhere.zendesk.com/hc/en-gb
+- type: Login
+  url: https://www.appearhere.co.uk/login
+- type: TermsOfService
+  url: https://www.appearhere.co.uk/terms_of_use
+- type: PrivacyPolicy
+  url: https://www.appearhere.co.uk/privacy_policy
+- type: GitHubOrganization
+  url: https://github.com/appearhere
+- type: DomainSecurity
+  url: security/appearhere-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
